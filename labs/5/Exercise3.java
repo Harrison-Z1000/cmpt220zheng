@@ -22,7 +22,7 @@ public class Exercise3 {
         }
         
         // Sort the list of students by score
-        Arrays.sort(students);
+        Arrays.sort(students); 
         
         // Print the sorted list
         System.out.println("List of students sorted by score: ");
