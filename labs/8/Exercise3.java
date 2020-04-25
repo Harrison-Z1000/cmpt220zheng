@@ -43,7 +43,7 @@ public class Exercise3 {
     }
 
     // Sphere is a subclass of Shape
-    public static class Sphere extends Shape {
+    class Sphere extends Shape {
         private double radius;
 
         // Create an instance of Sphere with the specified attributes
@@ -70,7 +70,7 @@ public class Exercise3 {
     }
     
     // Rectangle is a subclass of Shape
-    public static class Rectangle extends Shape {
+    class Rectangle extends Shape {
         private double length;
         private double width;
 
@@ -101,7 +101,7 @@ public class Exercise3 {
     }
     
     // Cylinder is a subclass of Shape
-    public static class Cylinder extends Shape{
+    class Cylinder extends Shape{
         private double radius;
         private double height;
 
